@@ -46,7 +46,7 @@ export function SidebarProvider({
     <SidebarContext.Provider
       value={{
         isOpenOnSmallScreens: isOpen,
-        isPageWithSidebar: true,
+        isPageWithSidebar: false,
         setOpenOnSmallScreens: setOpen,
       }}
     >
