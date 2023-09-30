@@ -15,16 +15,16 @@ export default function Index(): JSX.Element {
           </h1>
         </header>
         <main className="flex justify-center p-6">
-          <Card className="w-1/2">
+          <Card className="w-full sm:w-10/12 md:w-8/12 lg:w-1/2">
             <p className="text-center font-bold text-xl dark:text-white pb-3 border-b-2">Send Cryptocurrencies</p>
             <div className="rounded-lg border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800">
               <div className="flex justify-between align-item-center p-3">
-                <div>Balance</div>
-                <div>Balance</div>
+                <div className='dark:text-white'>Balance</div>
+                <div className='dark:text-white'>Balance</div>
               </div>
               <div className="flex justify-between align-item-center p-3">
-                <div>Balance</div>
-                <div>Balance</div>
+                <div className='dark:text-white'>Balance</div>
+                <div className='dark:text-white'>Balance</div>
               </div>
             </div>
             <TextInput />
@@ -52,14 +52,14 @@ export default function Index(): JSX.Element {
               </div>
               <div className="p-6">
                 <p className="text-sm font-normal text-gray-500 dark:text-gray-400">Connect with one of our available wallet providers or create a new one.</p>
-                <div className="my-4 space-y-3 flex justify-around flex-rowitems-center">
+                <div className="my-4 flex justify-around flex-row items-center">
                   <Tooltip content='Ethereum'>
-                    <div className="p-3 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white m-0">
+                    <div className="p-3 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
                       <Image src={'/eth.png'} width={50} height={50} alt='ethereum logo' />
                     </div>
                   </Tooltip>
                   <Tooltip content='Binance Testnet'>
-                    <div className="p-3 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white m-0" style={{marginTop: 0}}>
+                    <div className="p-3 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
                       <Image src={'/bnb.png'} width={50} height={50} alt='bnb logo' />
                     </div>
                   </Tooltip>
