@@ -3,9 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  images: {
-    domains: ["flowbite.com"],
-  },
+  // images: {
+  //   domains: ["flowbite.com"],
+  // },
   reactStrictMode: true,
   swcMinify: true,
 };
