@@ -38,7 +38,7 @@ export default function Index({ pageProps }: AppProps<{ session: Session }>): JS
           <RainbowKitProvider chains={chains}>
             <SidebarProvider>
               <Header />
-              <div className="flex dark:bg-gray-900">
+              <div className="flex dark:bg-gray-900 h-[92vh]">
                 <main className="order-2 mx-4 mt-4 mb-24 flex-[1_0_16rem]">
                   <HomePage />
                 </main>
