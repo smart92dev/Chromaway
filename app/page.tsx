@@ -30,15 +30,15 @@ const wagmiConfig = createConfig({
   publicClient,
   webSocketPublicClient,
 })
-export default function Index({ pageProps }: AppProps<{ session: Session }>): JSX.Element {
+export default function Index({ }: AppProps<{ session: Session }>): JSX.Element {
   return (
     <WagmiConfig config={wagmiConfig}>
-      <SessionProvider refetchInterval={0} {...pageProps} >
+      <SessionProvider refetchInterval={0} >
         <RainbowKitSiweNextAuthProvider>
           <RainbowKitProvider chains={chains}>
             <SidebarProvider>
               <Header />
-              <div className="flex dark:bg-gray-900 h-[92vh]">
+              <div className="flex dark:bg-gray-900">
                 <main className="order-2 mx-4 mt-4 mb-24 flex-[1_0_16rem]">
                   <HomePage />
                 </main>
