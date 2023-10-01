@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 It also includes:
 
-- [o] [`flowbite`](https://flowbite.com)
+- [x] [`flowbite`](https://flowbite.com)
 - [x] [`flowbite-react`](https://flowbite-react.com)
 - [x] [`react-icons`](https://react-icons.github.io/react-icons)
 - [x] [`tailwindcss`](https://tailwindcss.com)
