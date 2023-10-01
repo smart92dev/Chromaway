@@ -230,15 +230,15 @@ export default function Index(): JSX.Element {
     }
   }
   return (
-    <div className="p-6">
+    <div className="md:p-6">
       <section>
         <header>
           <h1 className="mb-6 text-center text-5xl font-extrabold dark:text-white">
             Welcome to <code>TestProject</code> for <code>Chromaway</code>!
           </h1>
         </header>
-        <main className="flex justify-center p-6">
-          <Card className="w-full sm:w-10/12 md:w-8/12 lg:w-1/2">
+        <main className="flex justify-center p-0 lg:p-6">
+          <Card className="w-full sm:w-full md:w-10/12 lg:w-1/2">
             <p className="text-center font-bold text-xl dark:text-white pb-3 border-b-2">Send Cryptocurrencies</p>
             <div className='flex justify-center'>
               <ConnectButton label='Connect Wallet' />

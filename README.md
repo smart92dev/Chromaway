@@ -55,3 +55,8 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+This is `.env` file
+```bash
+ALKEMY_KEY=pRKvOH0qJ4GC3qcmfqfJfLPdIZEu--B0
+```
